@@ -152,4 +152,9 @@ void ida_simple_remove(struct ida *ida, unsigned int id);
 
 void __init idr_init_cache(void);
 
+int ida_simple_get(struct ida *ida, unsigned int start, unsigned int end,
+		   gfp_t gfp_mask);
+
+void ida_simple_remove(struct ida *ida, unsigned int id);
+
 #endif /* __IDR_H__ */
