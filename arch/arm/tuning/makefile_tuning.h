@@ -9,7 +9,7 @@ KBUILD_CFLAGS  += $(call cc-option,-ftree-loop-linear)
 KBUILD_CFLAGS  += $(call cc-option,-floop-strip-mine)
 KBUILD_CFLAGS  += $(call cc-option,-floop-block)
 KBUILD_CFLAGS  += $(call cc-option,-fgraphite-identity)
-KBUILD_CFLAGS  += $(call cc-option,-floop-nest-optimize)
+#KBUILD_CFLAGS  += $(call cc-option,-floop-nest-optimize)
 KBUILD_CFLAGS  += $(call cc-option,-floop-parallelize-all)
 KBUILD_CFLAGS  += $(call cc-option,-ftree-loop-distribution)
 
